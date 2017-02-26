@@ -1,0 +1,101 @@
+.userContainer {
+    width: 100%;
+    padding-right: 14px;
+}
+
+.profilePictureContainer {
+    width: 35%;
+    display: inline-block;
+}
+
+.profilePicture {
+    height: 300px;
+}
+
+.userInfo {
+    width: 65%;
+    display: inline-block;
+    font-size: 24px;
+    float: right;
+}
+
+.playlistContainer {
+    display: block;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.timerEditButton {
+    width: 33%;
+    display: inline-block;
+    float: right;
+
+}
+
+.song {
+    display: inline-block;
+}
+
+.submitPlaylistContainer {
+    padding: 20px 30px;
+    font-size: 24px;
+}
+
+.songLinkTextBox {
+    width: 85%;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    padding: 1px 12px;
+    color: rgba(0, 0, 0, 0.17);
+}
+
+.srcSong {
+    padding-bottom: 20px;
+}
+
+.timerCountdown {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.userInfo {
+    padding-top: 20px;
+
+}
+
+.redButton {
+    background-color: #BF1306;
+    border-radius: 3px;
+    color: black;
+    padding: 5px 20px;
+    font-size: 20px;
+    border: 1px solid transparent;
+}
+
+i.fa.fa-music {
+    color: #BF1306;
+}
+
+.smalltext {
+    display: inline-block;
+}
+
+@media screen and (max-width: 991px) {
+    .profilePictureContainer, .userInfo, .playlistContainer {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .profilePictureContainer, .timerEditButton, .userInfo {
+        width: 100%;
+        text-align: center;
+    } 
+    .redButton {
+        margin-bottom: 20px;
+    }
+    
+}
